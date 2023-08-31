@@ -1,0 +1,30 @@
+.container{
+    border: 2px solid red;
+    background-color: cornflowerblue;
+    margin: 10px ;
+    padding: 14px;
+    display:flex;
+    flex-direction: row-reverse;
+    /* flex-wrap: wrap; */
+    height: 700px;
+    justify-content: space-around;
+    align-items:center ;
+    flex-flow: row wrap;
+    
+}
+.item1{
+    flex-shrink: 2;
+    
+   
+}
+.item2{
+
+}
+p{
+    border: 2px solid green;
+    background-color: burlywood;
+    margin: 50px;
+    padding: 15px;
+    width: 100px;
+    height: 100px;
+}
